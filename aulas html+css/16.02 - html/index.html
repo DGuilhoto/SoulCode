@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Aula HTML+CSS</title>
+</head>
+<body>
+ <!-- container do Formulário    -->
+    <form>
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+<label for="cNome">Nome:</label>
+<input type="text" id="cNome" name="texto"  minlength="1" maxlength="40" size="40"> <br><br>
+
+<label for="cSenha">Senha:</label>
+<input type="password" id="cSenha"  name="senha"> <br><br>
+
+<label for="cEmail">E-mail:</label>
+<input type="email" id="cEmail" name="email"> <br><br>
+
+<label for="cTelefone">Telefone:</label>
+<input type="tel" id="cTelefone" name="telefone"> <br><br>
+
+<label for="curlinstagram">URL do Instagram:</label>
+<input type="url" id="curlinstagram" name="urlinstagram"> <br><br>
+
+<label for="cIdade">Idade:</label>
+<input type="number" id="cIdade" name="idade" min="0"> <br><br>
+
+Data de Nascimento:
+<input type="date" name="datadenasc." min="1934-01-01" max="2023-01-01"> <br><br>
+
+Hora de Nascimento:
+<input type="time" name="horadenasc."> <br><br>
+
+<!-- Data e Hora de Nascimento: -->
+<input type="datetime-local"> <br><br>
+
+Foto de Perfil:
+<input type="file" name="avatar" multiple accept=".png,.jpeg,.jpg "> <br><br>
+
+
+Interesses:
+Humanas <input type="checkbox" name="interesses"> 
+Exatas <input type="checkbox" name="interesses"> 
+Linguagens <input type="checkbox" name="interesses"> 
+Ciências <input type="checkbox" name="interesses">  <br><br>
+
+Escolha sua cor favorita:
+<input type="color" name="corfavorita"> <br><br>
+
+Sexo: 
+Masculino: <input type="radio" name="sexo"> 
+Feminino: <input type="radio" name="sexo">  <br><br>
+</fieldset>
+
+<fieldset>
+
+    <legend>Outras Informações</legend>
+Nível de Inglês:
+0<input type="range" name=" ingles" min="1" max="10"> 10 <br><br>
+<!-- <datalist id="markers">
+    <option value="0"></option>
+    <option value="1"></option>
+    <option value="2"></option>
+    <option value="3"></option>
+    <option value="4"></option>
+    <option value="5"></option>
+    <option value="6"></option>
+    <option value="7"></option>
+    <option value="8"></option>
+    <option value="9"></option>
+    <option value="10"></option> -->
+<!-- </datalist> -->
+
+Escondido  (Ver no inspecionar)
+<input required type="hidden" name="escondido" value="1000"> <br><br>
+
+Conte um pouco sobre você: <br>
+<textarea
+ placeholder="Digite seu texto aqui"> 
+</textarea> <br> <br>
+
+Escolaridade:
+<select name="escolaridade"> 
+    <option disable selected>Selecione uma Opção</option>
+    <option>Ensino Fundamental</option>
+    <option>Ensino Médio Completo</option>
+    <option>Ensino Superior Completo</option>
+</select>
+
+<button type="submit">Enviar</button>
+<button type>Não Faz Nada</button>
+<button type>Reiniciar</button>
+
+ <!-- Quando colocamos checked ex.: type="radio" checked name=""> ele já deixa pré marcado como padrão  -->
+</fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Aula 2 de HTML e CSS</title>
+</head>
+<body>
+    <figure>
+        <img src="./midia/eu-a-patroa-e-as-criancas.jpeg" widht="400px" height="200px" alt="Capa da série Eu a Patroa e as Crianças">
+<figcaption>Capa da serie Eu a Patroa e as Crianças</figcaption>
+
+    </figure>
+    <!-- <img src="./mídia/eu-a-patroa-e-as-criancas.jpeg" alt="Capa da serie Eu a Patroa e as Crianças"> -->
+
+    <h2>Vídeo</h2>
+
+    <video src="./midia/abertura-chaves.mp4" widht="400px" height="200px" controls="true"></video>
+
+    <h2>Audio</h2>
+    <audio src="./midia/abertura-um-maluco-no-pedaco.mp3" controls="true"></audio>
+
+    <hr>
+<br><br>
+    <h2>Listas</h2>
+    <h3>Listas não ordenadas (Lista de Compras)</h3>
+
+    <!-- Unordered List - Lista não Ordenada -->
+    <ul>
+        <li>Farinha de Trigo </li>
+        <li>Leite </li>
+        <li>Ovos </li>
+        <li>Açúcar </li>
+    </ul>
+
+    <br>
+    <h3>Lista   Ordenada (Receita de Bolo)</h3>
+<!-- Ordered List - Lista Ordenada -->
+    <ol>
+<li> Misture todos os ingrediente numa tijela</li>
+<li> Aqueça no forno a 180 graus</li>
+<li> Coloque a mistura numa forma e leve ao forno</li>
+<li> Espere esfriar e misture em fatias</li>
+
+    </ol>
+
+    <h3>Listas Alinhadas</h3>
+
+    <ul>
+        <li>Café da Manhã</li>
+        <ul>
+            <li>Pão</li>
+            <li>Ovos </li>
+            <li>Café</li>
+        </ul>
+        <li>Almoço</li>
+        <ul>
+            <li>Arroz</li>
+            <li>Bife de frango</li>
+            <li>Salada</li>
+        </ul>
+        <li>Lanche</li>
+        <ul>
+            <li>Café</li>
+            <li>Fatia de Bolo</li>
+        </ul>
+        <li>Jantar</li>
+        <ul>
+            <li>Pizza</li>
+            <li>Copo de refrigerante</li>
+        </ul>
+    </ul>
+
+    
+    <ol>
+        <li>Recolha suas roupas </li>
+        <ol>
+            <li>Veja nos quartos</li>
+            <li> Veja nas escadas</li>
+            </ol>
+    
+            <h3>Listas de descrição</h3>
+            <!-- Description List - Lista de Descricação -->
+            <!-- <dt></dt> - título -->
+            <!-- <dd></dd> - descrição -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>O HTML (Hipertext Markup Language ou Linguagem de Marcação de Hipertexto) é a linguagerm que estrutura os elementos visuais de uma página web.</dd>
+        <dt>CSS</dt>
+        <dd>CSS (Cascading Style Sheet ou Folhas de Estilos em Cascata) é uma linguagem de estilização utilizada para melhprar a aparência visual de elementos em um documento.</dd>
+    </dl>
+
+    <!-- 
+        Atributos Específicos (src, href, width, target)
+        Atributos Globais (id,class, title)
+    -->
+            <hr>
+            <br><br>
+
+    <h2>Tabelas</h2>
+<!-- <tr></tr> table row - linha da tabela -->
+<!-- <td></td> tabel data - linha de dados (coluna) -->
+<!-- border - borda é aplicada por CSS e não no HTML -->
+<!-- <th></th> table thead - primeira linha da tabela -->
+<!-- <td rowspan="número de colunas" - para mesclarar linhas -->
+<!-- <td align="center"></td> - usado para centralizar palavras na linha, já em desuso, isso é feito no CSS -->
+<!-- <tbody></tbody> - para colocar todo o copor da tabela -->
+<!-- <tfoot></tfoot> - rodapé da tabela -->
+
+    <table border="1">
+        <colgroup>
+        <col style="width: 300px">
+        <col style="width: 150px">
+        <col style="width: 80px">
+        </colgroup>
+<tr>
+    <th>Nome</th>
+    <th>Área</th>
+    <th>Idade</th>
+    <th>Estado</th>
+</tr>
+<tr>
+    <td>Gabriel B.</td>
+    <td>Full Stack</td>
+    <td>21 anos</td>
+    <td rowspan="2">Ceará</td><
+</tr>
+<tr>
+    <td>Daniela L</td>
+    <td>Estudante</td>
+    <td>37 anos</td>
+    
+</tr>
+<tr>
+    <td colspan="4">Professores da SoulCode</td>
+</tr>
+    </table>
+</body>
+</html>
